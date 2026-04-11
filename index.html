@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đại Nội Huế | Hương sắc Kinh thành</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:wght@400;600;700&family=Be+Vietnam+Pro:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="loader-box">
+      <div class="loader-circle"></div>
+      <p>Đang mở cánh cửa Đại Nội Huế...</p>
+    </div>
+  </div>
+
+  <!-- Back to top -->
+  <button id="backToTop" title="Lên đầu trang">↑</button>
+
+  <!-- Floating decoration -->
+  <div class="floating-lantern lantern1"></div>
+  <div class="floating-lantern lantern2"></div>
+  <div class="floating-lantern lantern3"></div>
+
+  <!-- Header / Hero -->
+  <header class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content reveal">
+      <p class="hero-subtitle">DANH LAM THẮNG CẢNH – QUẢNG BÁ VĂN HÓA CỐ ĐÔ</p>
+      <h1>ĐẠI NỘI HUẾ</h1>
+      <h2>Hương sắc Kinh thành</h2>
+      <p class="hero-text">
+        Khám phá vẻ đẹp cổ kính, uy nghiêm và giá trị văn hóa trường tồn của một biểu tượng di sản Việt Nam.
+      </p>
+      <div class="hero-buttons">
+        <a href="#intro" class="btn gold">Khám phá ngay</a>
+        <a href="#members" class="btn outline">Nhóm thực hiện</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Đại Nội Huế</div>
+    <ul class="nav-links">
+      <li><a href="#home">Trang chủ</a></li>
+      <li><a href="#intro">Giới thiệu</a></li>
+      <li><a href="#history">Lịch sử</a></li>
+      <li><a href="#architecture">Kiến trúc</a></li>
+      <li><a href="#culture">Giá trị</a></li>
+      <li><a href="#gallery">Thư viện</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#members">Nhóm</a></li>
+      <li><a href="#contact">Liên hệ</a></li>
+    </ul>
+    <div class="menu-toggle" id="menuToggle">☰</div>
+  </nav>
+<br>
+<section class="video-section">
+  <h2 style="text-align: center;">Khám phá Đại Nội Huế</h2>
+   <br>
+      <br>
+      <p style="text-align: center;">Video mang đến cái nhìn chân thực về vẻ đẹp cổ kính, uy nghiêm của Đại Nội Huế – biểu tượng văn hóa của cố đô.</p>
+
+      <br>
+      <br>
+  <video controls>
+    <source src="video-dainoi.mp4" type="video/mp4">
+      <br>
+      <br>
+      <p>Video mang đến cái nhìn chân thực về vẻ đẹp cổ kính, uy nghiêm của Đại Nội Huế – biểu tượng văn hóa của cố đô.</p>
+
+  </video>
+</section>
+
+  <!-- Slideshow -->
+  <section class="slideshow-section">
+    <div class="slideshow reveal">
+      <div class="slides fade-slide active" style="background-image: url('ngomon.jpg');">
+        <div class="slide-caption">Ngọ Môn – Biểu tượng uy nghi của Hoàng thành Huế</div>
+      </div>
+      <div class="slides fade-slide" style="background-image: url('dienthaihoa.jpg');">
+        <div class="slide-caption">Điện Thái Hòa – Trung tâm quyền lực triều Nguyễn</div>
+      </div>
+      <div class="slides fade-slide" style="background-image: url('toancanhdainoi.jpg');">
+        <div class="slide-caption">Toàn cảnh Đại Nội Huế – Vẻ đẹp trầm mặc vượt thời gian</div>
+      </div>
+
+      <button class="slide-btn prev" onclick="changeSlide(-1)">❮</button>
+      <button class="slide-btn next" onclick="changeSlide(1)">❯</button>
+
+      <div class="dots">
+        <span class="dot active-dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="main-wrapper">
+
+    <!-- Intro -->
+    <section id="intro" class="section card reveal">
+      <div class="section-title-wrap">
+        <span class="decor-line"></span>
+        <h2>Giới thiệu tổng quan</h2>
+        <span class="decor-line"></span>
+      </div>
+      <p>
+        Đại Nội Huế là một trong những công trình kiến trúc lịch sử nổi bật nhất của Việt Nam, thuộc quần thể di tích Cố đô Huế – di sản văn hóa thế giới được UNESCO công nhận. Đây từng là trung tâm chính trị, văn hóa và quyền lực của triều Nguyễn – triều đại phong kiến cuối cùng trong lịch sử Việt Nam.
+      </p>
+      <p>
+        Không chỉ là nơi ở và làm việc của vua chúa, Đại Nội còn là biểu tượng của nghệ thuật kiến trúc cung đình Việt Nam với vẻ đẹp cổ kính, uy nghiêm và đậm đà bản sắc dân tộc. Website này được xây dựng nhằm giới thiệu, quảng bá và lan tỏa vẻ đẹp của Đại Nội Huế đến đông đảo người xem, đặc biệt là học sinh, giới trẻ và khách du lịch.
+      </p>
+    </section>
+
+    <!-- Project objectives -->
+    <section class="section card reveal">
+      <div class="section-title-wrap">
+        <span class="decor-line"></span>
+        <h2>Mục tiêu dự án</h2>
+        <span class="decor-line"></span>
+      </div>
+      <div class="grid-2">
+        <div class="mini-box">
+          <h3>Giới thiệu di sản</h3>
+          <p>Truyền tải lịch sử hình thành, kiến trúc đặc sắc và giá trị văn hóa tiêu biểu của Đại Nội Huế.</p>
+        </div>
+        <div class="mini-box">
+          <h3>Thiết kế trực quan</h3>
+          <p>Xây dựng giao diện đẹp mắt, dễ sử dụng, mang đậm phong cách cổ kính và sang trọng.</p>
+        </div>
+        <div class="mini-box">
+          <h3>Quảng bá hình ảnh Huế</h3>
+          <p>Lan tỏa vẻ đẹp Đại Nội Huế đến học sinh, du khách trong và ngoài nước.</p>
+        </div>
+        <div class="mini-box">
+          <h3>Ứng dụng CNTT</h3>
+          <p>Kết hợp yếu tố truyền thống và hiện đại để quảng bá di sản văn hóa địa phương.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- History -->
+    <section id="history" class="section card reveal">
+      <div class="section-title-wrap">
+        <span class="decor-line"></span>
+        <h2>Lịch sử hình thành và phát triển</h2>
+        <span class="decor-line"></span>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>1802 – Khởi đầu triều Nguyễn</h3>
+            <p>Vua Gia Long lên ngôi, chọn Huế làm kinh đô và bắt đầu quy hoạch trung tâm quyền lực quốc gia.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>1805 – Khởi công Kinh thành</h3>
+            <p>Việc xây dựng Kinh thành Huế và các hạng mục quan trọng của Hoàng thành được triển khai quy mô lớn.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>Thế kỉ XIX – Hoàn thiện Đại Nội</h3>
+            <p>Qua nhiều triều vua Nguyễn, các công trình như Ngọ Môn, Điện Thái Hòa, Tử Cấm Thành tiếp tục được mở rộng và hoàn thiện.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>Thế kỉ XX – Biến động lịch sử</h3>
+            <p>Chiến tranh và thiên tai gây nhiều hư hại cho các công trình trong Đại Nội, nhiều kiến trúc bị xuống cấp nghiêm trọng.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>Hiện nay – Bảo tồn và phát huy</h3>
+            <p>Đại Nội Huế đang được trùng tu, bảo tồn và trở thành điểm đến văn hóa – du lịch đặc biệt quan trọng của Việt Nam.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Architecture -->
+    <section id="architecture" class="section card reveal">
+      <div class="section-title-wrap">
+        <span class="decor-line"></span>
+        <h2>Kiến trúc tiêu biểu</h2>
+        <span class="decor-line"></span>
+      </div>
+
+      <div class="architecture-grid">
+        <div class="arch-card">
+          <div class="arch-img" style="background-image: url('ngomon.jpg');"></div>
+          <div class="arch-content">
+            <h3>Ngọ Môn</h3>
+            <p>Là cổng chính phía Nam của Hoàng thành, biểu tượng nổi bật của Đại Nội Huế với kiến trúc uy nghi, bề thế và giàu giá trị lịch sử.</p>
+          </div>
+        </div>
+
+        <div class="arch-card">
+          <div class="arch-img" style="background-image: url('dienthaihoa.jpg');"></div>
+          <div class="arch-content">
+            <h3>Điện Thái Hòa</h3>
+            <p>Nơi diễn ra các buổi thiết triều quan trọng, thể hiện đỉnh cao của kiến trúc cung đình với mái ngói vàng và chạm khắc tinh xảo.</p>
+          </div>
+        </div>
+
+        <div class="arch-card">
+          <div class="arch-img" style="background-image: url('tucamthanh.jpg');"></div>
+          <div class="arch-content">
+            <h3>Tử Cấm Thành</h3>
+            <p>Khu vực sinh hoạt riêng của vua và hoàng gia, mang vẻ đẹp kín đáo, trang nhã nhưng vẫn toát lên sự sang trọng, quyền quý.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Culture -->
+    <section id="culture" class="section card reveal">
+      <div class="section-title-wrap">
+        <span class="decor-line"></span>
+        <h2>Giá trị văn hóa và nghệ thuật</h2>
+        <span class="decor-line"></span>
+      </div>
+
+      <div class="value-grid">
+        <div class="value-card">
+          <h3>Giá trị lịch sử</h3>
+          <p>Gắn liền với triều Nguyễn và nhiều sự kiện quan trọng trong lịch sử dân tộc.</p>
+        </div>
+        <div class="value-card">
+          <h3>Giá trị kiến trúc</h3>
+          <p>Thể hiện đỉnh cao nghệ thuật xây dựng cung đình Việt Nam với bố cục hài hòa và kỹ thuật tinh xảo.</p>
+        </div>
+        <div class="value-card">
+          <h3>Giá trị nghệ thuật</h3>
+          <p>Gắn với lễ nghi cung đình, nhã nhạc, mỹ thuật, trang phục và văn hóa truyền thống.</p>
+        </div>
+        <div class="value-card">
+          <h3>Giá trị giáo dục – du lịch</h3>
+          <p>Giúp quảng bá văn hóa Huế và nâng cao ý thức trân trọng, bảo tồn di sản trong thế hệ trẻ.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section card reveal">
+      <div class="section-title-wrap">
+        <span class="decor-line"></span>
+        <h2>Thư viện ảnh</h2>
+        <span class="decor-line"></span>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-card" style="background-image: url('ngomon.jpg');">
+          <span>Ngọ Môn</span>
+        </div>
+        <div class="gallery-card" style="background-image: url('dienthaihoa.jpg');">
+          <span>Điện Thái Hòa</span>
+        </div>
+        <div class="gallery-card" style="background-image: url('toancanhdainoi.jpg');">
+          <span>Toàn cảnh Đại Nội</span>
+        </div>
+        <div class="gallery-card" style="background-image: url('khonggiancokinh.jpg');">
+          <span>Không gian cổ kính</span>
+        </div>
+        <div class="gallery-card" style="background-image: url('netdepcungdinh.jpg');">
+          <span>Nét đẹp cung đình</span>
+        </div>
+        <div class="gallery-card" style="background-image: url('vanhoahue.jpg');">
+          <span>Văn hóa Huế</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="section card reveal">
+      <div class="section-title-wrap">
+        <span class="decor-line"></span>
+        <h2>Tin tức / Blog</h2>
+        <span class="decor-line"></span>
+      </div>
+
+      <div class="blog-grid">
+        <div class="blog-card">
+          <h3>Vẻ đẹp trầm mặc của Đại Nội Huế</h3>
+          <p>Đại Nội Huế mang vẻ đẹp cổ kính, uy nghiêm và sâu lắng, phản ánh chiều sâu văn hóa của dân tộc Việt Nam qua nhiều thế kỉ.</p>
+        </div>
+        <div class="blog-card">
+          <h3>Bảo tồn di sản – trách nhiệm của thế hệ trẻ</h3>
+          <p>Việc gìn giữ và quảng bá các giá trị di sản như Đại Nội Huế không chỉ là trách nhiệm của ngành văn hóa mà còn của mỗi công dân Việt Nam.</p>
+        </div>
+        <div class="blog-card">
+          <h3>Huế – nơi hội tụ lịch sử và nghệ thuật</h3>
+          <p>Không chỉ là điểm đến du lịch, Huế còn là không gian văn hóa đặc sắc với nhiều giá trị nghệ thuật cung đình độc đáo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Members -->
+    <section id="members" class="section card reveal">
+      <div class="section-title-wrap">
+        <span class="decor-line"></span>
+        <h2>Nhóm thực hiện: Hương sắc Kinh thành</h2>
+        <span class="decor-line"></span>
+      </div>
+
+      <div class="members-grid">
+        <div class="member-card leader">
+          <h3>Ly Na</h3>
+          <p class="role">Nhóm trưởng</p>
+          <p>Quản lý tiến độ, lên ý tưởng tổng thể, theo dõi nội dung và kiểm tra sản phẩm cuối cùng.</p>
+        </div>
+
+        <div class="member-card">
+          <h3>Lê Nhi</h3>
+          <p class="role">Thư kí – Nội dung</p>
+          <p>Viết nội dung chính, chọn lọc tài liệu chính xác, biên tập bài viết và ghi chép quá trình làm việc.</p>
+        </div>
+
+        <div class="member-card">
+          <h3>Diệu</h3>
+          <p class="role">Thiết kế giao diện</p>
+          <p>Thiết kế bố cục, lựa chọn màu sắc, font chữ và phong cách thẩm mỹ phù hợp với chủ đề.</p>
+        </div>
+
+        <div class="member-card">
+          <h3>Tất Hưng</h3>
+          <p class="role">Lập trình</p>
+          <p>Thực hiện phần code bằng HTML, CSS, JavaScript và đảm bảo website hoạt động ổn định.</p>
+        </div>
+
+        <div class="member-card">
+          <h3>Khang</h3>
+          <p class="role">Media – Trình bày</p>
+          <p>Tìm kiếm hình ảnh, video, thiết kế banner, hỗ trợ phần thuyết trình và hoàn thiện trực quan.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools -->
+    <section class="section card reveal">
+      <div class="section-title-wrap">
+        <span class="decor-line"></span>
+        <h2>Công cụ sử dụng</h2>
+        <span class="decor-line"></span>
+      </div>
+
+      <div class="tools-grid">
+        <div class="tool-item">Canva</div>
+        <div class="tool-item">HTML</div>
+        <div class="tool-item">CSS</div>
+        <div class="tool-item">JavaScript</div>
+        <div class="tool-item">Google Drive</div>
+        <div class="tool-item">Photoshop</div>
+        <div class="tool-item">CapCut</div>
+      </div>
+    </section>
+
+    <!-- Progress -->
+    <section class="section card reveal">
+      <div class="section-title-wrap">
+        <span class="decor-line"></span>
+        <h2>Tiến độ thực hiện dự kiến (2–3 tuần)</h2>
+        <span class="decor-line"></span>
+      </div>
+
+      <div class="progress-grid">
+        <div class="progress-card">
+          <h3>Tuần 1</h3>
+          <p>Nghiên cứu thông tin về Đại Nội Huế, thống nhất chủ đề, mục tiêu và phân công nhiệm vụ.</p>
+        </div>
+        <div class="progress-card">
+          <h3>Tuần 2</h3>
+          <p>Thiết kế giao diện, xây dựng bố cục, viết nội dung chính, thu thập hình ảnh và video minh họa.</p>
+        </div>
+        <div class="progress-card">
+          <h3>Tuần 3</h3>
+          <p>Tiến hành code website, kiểm tra lỗi, hoàn thiện sản phẩm và chuẩn bị báo cáo thuyết trình.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section card contact-card reveal">
+      <div class="section-title-wrap">
+        <span class="decor-line"></span>
+        <h2>Liên hệ / Thông điệp dự án</h2>
+        <span class="decor-line"></span>
+      </div>
+      <p><strong>Nhóm thực hiện:</strong> Hương sắc Kinh thành</p>
+      <p><strong>Chủ đề:</strong> Danh lam thắng cảnh – Quảng bá văn hóa Đại Nội Huế</p>
+      <p>
+        Chúng em mong muốn thông qua website này góp phần lan tỏa vẻ đẹp của Đại Nội Huế,
+        từ đó nâng cao nhận thức về việc gìn giữ, trân trọng và bảo tồn các giá trị văn hóa truyền thống của dân tộc Việt Nam.
+      </p>
+    </section>
+<section class="comment-section">
+  <h2>💬 Góp ý & Bình luận</h2>
+
+  <div class="form-row">
+  <input type="text" id="name" placeholder="Nhập tên của bạn">
+  <textarea id="comment" placeholder="Nhập bình luận..."></textarea>
+
+</div>
+<div class='btn-wrapper'>
+<button onclick="addComment()">Gửi bình luận</button>
+</div>
+</section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-overlay"></div>
+    <div class="footer-content">
+      <h3>ĐẠI NỘI HUẾ</h3>
+      <p>Biểu tượng văn hóa – lịch sử – nghệ thuật của Cố đô Huế</p>
+      <p>© 2026 Nhóm Hương sắc Kinh thành | Dự án thiết kế website quảng bá văn hóa Đại Nội Huế</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
